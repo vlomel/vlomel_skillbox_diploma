@@ -1,0 +1,16 @@
+server:
+    port: "8585"
+
+request:
+  support: "http://127.0.0.1:8383/support"
+  mms: "http://127.0.0.1:8383/mms"
+  incident: "http://127.0.0.1:8383/accendent"
+
+
+data:
+  billing: "../simulator/billing.data"
+  email: "../simulator/email.data"
+  voice: "../simulator/voice.data"
+  sms: "../simulator/sms.data"
+
+
